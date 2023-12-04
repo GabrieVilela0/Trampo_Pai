@@ -1,0 +1,136 @@
+/* RESET GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* HEADER */
+
+
+header{
+    background-color: #273A73;
+    height: 94px;
+}
+header h1{
+    text-align: center;
+    font-family: Poppins; /* nao esta funcionando */
+    font-size: 16px;
+    padding-block: 13px 19px;
+    color: #fff;
+    font-weight: 900;
+}
+header img{
+    width: 23px;
+}
+
+
+
+/* CONTEUDO DO MAIN */
+main{
+    margin-top: 20px;
+}
+main h2{
+    color: #273A73;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 1px 1px #cbcbcb;
+    max-width: 80%;
+    margin-inline: auto;
+}
+hr{
+    color: #273A73;
+    margin-block: 10px 30px;
+}
+
+.tiers article{
+    text-align: center;
+    padding: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #110303;
+    border-radius: 38px;
+    margin-top: 20px;
+}
+
+.tiers article p{
+    padding-top: 7px;
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    background-color: #727272;
+    padding: 15px;
+
+}
+footer h3{
+    text-align: center;
+    color: white;
+}
+
+
+/* PERSONALIZADAS */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-inline: auto;
+}
+.nav{
+    display: flex;
+    gap: 17px;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.blue{
+    color: #6DBFFF;
+}
+
+.especialidades{
+    margin-top: 60px;
+    background-color: #EFEFEF;
+    height: 156px;
+}
+.especialidades h3{
+    font-size: 17px;
+    padding-block: 20px 10px;
+    margin-left: 15px;
+    color: #273A73;
+}
+.especialidades p{
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+
+/* FOOTER MAIN */
+.footer-main{
+    background-color: #273A73;
+    text-align: center;
+}
+.footer-main article{
+    padding-top: 20px;
+}
+.footer-main h3{
+    color: #FF5C00;
+    text-shadow: 1px 1px black;
+}
+.footer-main p{
+    color: white;
+    width: 70%;
+    margin-inline: auto;
+    padding-top: 5px;
+    line-height: 21px;
+    font-size: 16.5px;
+}
