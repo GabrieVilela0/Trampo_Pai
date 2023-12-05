@@ -130,11 +130,13 @@ function Menu() {
     // Se o display for "none", muda para "flex"
     lista.style.display = 'block';
     document.getElementById('humburger').innerText = 'close';
+    document.body.style.overflow = 'hidden';
 
   } else {
     // Se o display não for "none", muda para "none"
     lista.style.display = 'none';
     document.getElementById('humburger').innerText = 'menu';
+    document.body.style.overflow = 'auto';
   }
 }
 </script>
