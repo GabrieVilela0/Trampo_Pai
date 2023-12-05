@@ -37,10 +37,17 @@
             /></a>
           </li>
         </ul>
-        <span class="material-symbols-outlined"> menu </span>
+        <span class="material-symbols-outlined" id="humburger" onclick="Menu()"> menu </span>
       </div>
     </header>
-
+    <nav>
+      <ul id="nav-list">
+        <li><a href="">Produtos e serviços</a></li>
+        <li><a href="">Contato</a></li>
+        <li><a href="">Quem somos</a></li>
+        <li><a href="">Artigos e dicas</a></li>
+      </ul>
+    </nav>
     <main>
       <h2>ASSISTÊNCIA TÉCNICA E MANUTENÇÃO DE COMPUTADOR E NOTEBOOK</h2>
       <hr />
@@ -115,3 +122,19 @@
     </footer>
   </body>
 </html>
+<script>
+let lista = document.getElementById('nav-list');
+
+function Menu() {
+  if (lista.style.display === 'none') {
+    // Se o display for "none", muda para "flex"
+    lista.style.display = 'block';
+    document.getElementById('humburger').innerText = 'close';
+
+  } else {
+    // Se o display não for "none", muda para "none"
+    lista.style.display = 'none';
+    document.getElementById('humburger').innerText = 'menu';
+  }
+}
+</script>
