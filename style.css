@@ -31,7 +31,6 @@ header img{
     width: 23px;
 }
 
-
 /* CONTEUDO DO MAIN */
 main{
     margin-top: 20px;
@@ -77,7 +76,6 @@ footer h3{
     font-size: 1em;
 }
 
-
 /* PERSONALIZADAS */
 
 .container{
@@ -92,6 +90,9 @@ footer h3{
 }
 .material-symbols-outlined{
     color: white;
+    font-size: 30px;
+    position: fixed;
+    right: 0;
 }
 .blue{
     color: #6DBFFF;
@@ -148,4 +149,10 @@ footer h3{
     padding-top: 5px;
     line-height: 21px;
     font-size: 16px;
+}
+
+/* FOOTER */
+footer p{
+    text-align: center;
+    color: white;
 }
