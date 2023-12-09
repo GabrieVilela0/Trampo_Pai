@@ -22,7 +22,7 @@ header{
 header h1{
     text-align: center;
     font-family: Poppins; /* nao esta funcionando */
-    font-size: 16px;
+    font-size: 17px;
     padding-block: 13px 19px;
     color: #fff;
     font-weight: 900;
@@ -30,7 +30,6 @@ header h1{
 header img{
     width: 23px;
 }
-
 
 
 /* CONTEUDO DO MAIN */
@@ -69,12 +68,13 @@ hr{
 /* FOOTER */
 footer{
     background-color: #727272;
-    padding: 15px;
+    padding: 9px;
 
 }
 footer h3{
     text-align: center;
     color: white;
+    font-size: 1em;
 }
 
 
@@ -147,5 +147,5 @@ footer h3{
     margin-inline: auto;
     padding-top: 5px;
     line-height: 21px;
-    font-size: 16.5px;
+    font-size: 16px;
 }
