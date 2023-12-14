@@ -31,6 +31,23 @@ header img{
     width: 23px;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-inline: auto;
+}
+.nav{
+    display: flex;
+    gap: 17px;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.blue{
+    color: #6DBFFF;
+}
+
 /* CONTEUDO DO MAIN */
 main{
     margin-top: 20px;
@@ -49,6 +66,25 @@ hr{
     margin-block: 10px 30px;
 }
 
+/* FOOTER */
+footer{
+    background-color: #727272;
+    padding: 9px;
+
+}
+footer h3{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+/* PERSONALIZADAS */
+
 .tiers article{
     text-align: center;
     padding: 10px;
@@ -62,37 +98,6 @@ hr{
 .tiers article p{
     padding-top: 7px;
     color: white;
-}
-
-/* FOOTER */
-footer{
-    background-color: #727272;
-    padding: 9px;
-
-}
-footer h3{
-    text-align: center;
-    color: white;
-    font-size: 1em;
-}
-
-/* PERSONALIZADAS */
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 80%;
-    margin-inline: auto;
-}
-.nav{
-    display: flex;
-    gap: 17px;
-}
-.material-symbols-outlined{
-    color: white;
-}
-.blue{
-    color: #6DBFFF;
 }
 
 .especialidades{
@@ -110,23 +115,8 @@ footer h3{
     margin-left: 15px;
     margin-top: 8px;
 }
-#nav-list{
-    display: none;
-    background-color: #2f2f2ffb;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-}
-#nav-list li a {
-    color: #6DBFFF;
-    list-style: none;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-}
-#nav-list li{
-    padding-block: 20px;
-}
+
+
 /* FOOTER MAIN */
 .footer-main{
     background-color: #273A73;
@@ -146,10 +136,28 @@ footer h3{
     padding-top: 5px;
     line-height: 21px;
     font-size: 16px;
+    text-decoration: none;
 }
 
-/* FOOTER */
-footer p{
+/* ID */
+
+#nav-list{
+    display: none;
+    background-color: #2f2f2ffb;
+    width: 100%;
+    height: 100vh;
     text-align: center;
-    color: white;
 }
+
+#nav-list li a {
+    color: #6DBFFF;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+#nav-list li{
+    padding-block: 20px;
+}
+
+
