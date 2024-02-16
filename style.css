@@ -149,7 +149,6 @@ footer p{
     height: 100vh;
     text-align: center;
     flex-direction: column;
-    justify-content: start;
 }
 
 #nav-list li a {
